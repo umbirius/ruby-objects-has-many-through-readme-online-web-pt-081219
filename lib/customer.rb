@@ -1,6 +1,6 @@
 class Customer
   
-  attr_accessor :age, :waiter, :total, :tip
+  attr_accessor :age
   attr_reader :name
   
   @@all = []
@@ -16,9 +16,6 @@ class Customer
   end 
   
   def new_meal(waiter, total, tip)
-    @waiter = waiter
-    @total = total 
-    @tip = tip
     Meal.new(waiter, self, total, tip)
   end 
   
