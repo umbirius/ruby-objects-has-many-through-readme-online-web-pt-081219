@@ -24,7 +24,7 @@ class Waiter
   end 
   
   def best_tipper 
-    meals.select {|meal| meal.sort.tip} 
+    meals.map {|meal| meal.sort.tip} 
   end 
 
 end
