@@ -14,4 +14,7 @@ class Customer
   def self.all 
     @@all
   end 
+  
+  def new_meal()
+  end 
 end
