@@ -24,7 +24,7 @@ class Customer
   end 
   
   def waiters 
-    Meals.all.select {|meal| meal.waiter} 
+    Meal.all.select {|meal| meal.waiter} 
   end 
 
 end
