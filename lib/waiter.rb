@@ -20,7 +20,7 @@ class Waiter
   end 
   
   def meals
-    Meals.all.select {|meal| meal.waiter == self}
+    Meal.all.select {|meal| meal.waiter == self}
   end 
   
   def best_tipper 
