@@ -15,7 +15,5 @@ class Waiter
     @@all 
   end 
   
-  def waiters 
-    meals.select {|meal| meal.waiter == self} 
-  end 
+
 end
