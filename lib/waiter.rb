@@ -24,7 +24,7 @@ class Waiter
   end 
   
   def best_tipper 
-    meals.select {|customer| meal.customer} 
+    meals.select {|meal| meal.customer} 
   end 
 
 end
