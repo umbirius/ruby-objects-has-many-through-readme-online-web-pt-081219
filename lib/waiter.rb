@@ -1,6 +1,6 @@
 class Waiter
   
-  attr_accessor :years, :waiters 
+  attr_accessor :years
   attr_reader :name
   
   @@all = []
